@@ -1,0 +1,41 @@
+# Solution Overview
+
+This repository contains an ASP.NET Core 8 backend and an Angular 17 frontend application. Below is a high-level overview and instructions for working with the solution.
+
+## Projects
+
+- **AngularApp1.Server**: ASP.NET Core 8 backend (API)
+- **AngularApp1.AppHost**: .NET project (purpose: hosting or orchestration)
+- **AngularApp1.ServiceDefaults**: .NET project (purpose: shared service configuration)
+- **angularapp1.client**: Angular 17 frontend application
+
+## Getting Started
+
+### Prerequisites
+- .NET 8 SDK (ASP.NET Core 8)
+- Node.js & npm (for Angular client)
+- Angular CLI 17.x (for Angular client)
+
+### Restore Dependencies
+- **Backend**: `dotnet restore` in the solution directory or project folder
+- **Frontend**: `npm install` in the `angularapp1.client` directory
+
+### Build & Run
+- **Backend**: `dotnet build` and `dotnet run` from the server project directory
+- **Frontend**: `ng serve` from the `angularapp1.client` directory
+
+## Testing
+- **Backend**: `dotnet test`
+- **Frontend**: `ng test`
+
+## Contributing
+- Follow the coding guidelines in `.github/copilot-instructions.md`
+- Write and update tests for all changes
+
+## References
+- [Visual Studio MCP Servers Documentation](https://learn.microsoft.com/en-us/visualstudio/ide/mcp-servers?view=vs-2022)
+- [YouTube: GitHub Copilot for .NET and Angular](https://www.youtube.com/watch?v=dutyOc_cAEU)
+- [Sample Copilot Instructions (GitHub)](https://github.com/burkeholland/the-urlist-web/blob/main/.github/copilot-instructions.md)
+
+## License
+Specify your license here.
