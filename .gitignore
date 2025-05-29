@@ -58,3 +58,4 @@ TestResults/
 
 # Docker
 *.pid
+OLD.mcp.json
