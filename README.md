@@ -11,6 +11,8 @@ This repository contains an ASP.NET Core 8 backend and an Angular 17 frontend ap
 
 > **Note:** The AppHost and ServiceDefaults projects are part of the .NET Aspire solution structure. Learn more about .NET Aspire at [https://learn.microsoft.com/dotnet/aspire/overview](https://learn.microsoft.com/dotnet/aspire/overview)
 
+![See apps](docs/web-app.png)
+
 ## Getting Started
 
 ### Prerequisites

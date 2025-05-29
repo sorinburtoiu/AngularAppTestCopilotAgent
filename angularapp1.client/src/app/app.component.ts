@@ -33,5 +33,9 @@ export class AppComponent implements OnInit {
     );
   }
 
+  refreshTable() {
+    this.getForecasts();
+  }
+
   title = 'angularapp1.client';
 }
